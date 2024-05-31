@@ -38,8 +38,8 @@ Design a light reflection and refraction simulator that approximately reproduces
  Education: Users are able to learn and experiment with how light interacts with different materials.
 
 ## 4.1 Meeting 1
-Time:
-Agenda:
+Time: May 31, 2024. 4:00-4:30pm
+Agenda: Distribution of Project Tasks
 |Team Member   | Previous Task | Completion State | Next Task |
 | -------- | ------- | -------- | ------- |
 | Conner  |     |
