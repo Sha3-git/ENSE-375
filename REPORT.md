@@ -25,8 +25,6 @@ Design a light reflection and refraction simulator that approximately reproduces
  Cost-efficiency: The simulation will allow users to determine what materials will be more effective at reducing light pollution. Shielding light will impact the energy and money that can be saved. 
  Maintenance Costs: After the software is delivered there will be costs for technical support and bug fixes.
 
- Regulatory compliance (Security and Access) 
-
  Reliability 
  Accuracy: Reflection and refraction physics formulas will also be utilized to ensure calculations will be consistent and accurate.
  Testing:  Various testing techniques will also be utilized to ensure the system is reliable and able to run at a high standard with no performance issues.
@@ -48,6 +46,6 @@ Time:
 Agenda:
 |Team Member   | Previous Task | Completion State | Next Task |
 | -------- | ------- | -------- | ------- |
-| Connor  |     |
+| Conner  |     |
 | Shema |     |
 | Kevin    |    |
