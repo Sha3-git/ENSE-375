@@ -21,11 +21,9 @@ Design a light reflection and refraction simulator that approximately reproduces
  The refraction and reflection simulator aims to replicate the behaviour of common sources of light--both natural and artificial when interacting with common urban construction materials. It will show the light travel paths based on the angle of incidence of the ray--whether it will be reflected or refracted, and the reflective properties of the incident material. Our simulator will manufacture these interactions in an experimentally constant environment similar to that of urban communities in the summer. Light sources that will be considered will be lasers, sunlight and incandescent bulbs which are often seen in this setting. Materials considered are water, glass, and steel, which are the major reflective materials utilized in urban infrastructure.
  ### 2.2.2 Objectives
  The objective of our project is to accurately model the behavior of light with various urban materials via physics principles.
- Our simulator attempts to identify and mitigate potential issues related to light's interaction with the reflective materials commonly found in cities and neightbourhoods, such as light polluition, over heating, fire hazards and so on. By understanding how light interacts with different materials, users can develop strategies to mitigates the aforementioned risks.
-
-A wide range of light sources is included to ensure it covers commonly found urban settings such as sunlight, and various materials like water and glass. This versatility allows users to explore a wide array of scenarios and understand how light behaves in different contexts.
-
-Finally, the simulator should be designed with the user in mind. Users need to be able to manipulate variables with ease, such as the angle of incidence and the type of material, allowing for a more interactive experience. This ensures that anyone can effectively use the simulator to achieve their goals.
+ Our simulator attempts to identify and mitigate potential issues related to light's interaction with the reflective materials commonly found in cities and neightbourhoods, such as light polluition, over heating, fire hazards and so on. By understanding how light interacts with different materials, users can  
+ develop strategies to mitigate the aforementioned risks.
+ Finally, the simulator should be designed with the user in mind. Users need to be able to manipulate variables with ease, such as the angle of incidence and the type of material, allowing for a more interactive experience. This ensures that anyone can effectively use the simulator to achieve their goals.
  ### 2.2.3 Constraints
  Economic Factors <br />
  Cost-efficiency: The simulation will allow users to determine what materials will be more effective at reducing light pollution. Shielding light will impact the energy and money that can be saved. <br /> 
