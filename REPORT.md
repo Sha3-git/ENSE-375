@@ -5,12 +5,14 @@ Shema Dabiri, Conner Williams, Kevin Chi Huang
 The Reflection/Refraction simulator will provide the user with an accurate way to simulate how light, and various materials interact with each other in an urban environment. In order to implement the project, we need to identify the different materials used in urban development as well as the different light sources that will be interacting with these materials.
 ### Navigation 
   * Design Problem
-      * [2.1 Problem Definition](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#21-problem-definition)
-      * [2.2 Design Requirements](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#22-design-requirements)
+      * 2.1 [2.1 Problem Definition](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#21-problem-definition)
+      * 2.2 [2.2 Design Requirements](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#22-design-requirements)
         * 2.2.1 [2.2.1 Functions](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#221-functions)
         * 2.2.2 [2.2.2 Objectives](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#222-objectives)
         * 2.2.3 [2.2.3 Constraints](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#223-constraints)
-      * [4.1 Meeting 1]()
+      * 3.1 [3.1 Solution 1](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#31-Solution-1)
+      * 3.2 [3.2 Solution 2](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#32-Solution-2)
+      * 4.1 [4.1 Meeting 1](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#41-Meeting-1)
 
 
 ## 2.1 Problem Definition
@@ -40,6 +42,13 @@ Design a light reflection and refraction simulator that approximately reproduces
  **Societal Impacts** <br />
  **Health:** Can enhance living conditions in urban environments by choosing to build with more effective materials. <br />
  **Education:** Users are able to learn and experiment with how light interacts with different materials.
+
+## 3.1 Solution 1
+Our first iteration of the reflection and refraction simulator will focus on a single light source and material. Utilizing Snell's law for output calculations, users will be able to explore various angles and observe how the light source interacts with the material in terms of reflection and refraction.
+However, this iteration will lack some desired features, such as the ability to choose from a variety of light sources and materials. It will be challenging to satisfy the economic and environmental factors, as well as the societal impacts, if the simulator is limited to only one light source and material.
+
+## 3.2 Solution 2
+Our second solution increases the scope of consideration further for light behaviour. By including the divergence and dispersion properties of light we will be able to better display the environmental Interactions of light in urban environments. This allows our light reflection and refraction simulator to better emulate light behaviour in urban environments.
 
 ## 4.1 Meeting 1
 Time: May 31, 2024. 4:00-4:30pm
