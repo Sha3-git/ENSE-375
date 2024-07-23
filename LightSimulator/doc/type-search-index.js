@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"LightSim","l":"Albedo"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"LightSim","l":"Intensity"},{"p":"LightSim","l":"LightSimulation"},{"p":"LightSim","l":"Snell"}];updateSearchResults();
