@@ -12,6 +12,12 @@ The Reflection/Refraction simulator will provide the user with an accurate way t
         * 2.2.3 [2.2.3 Constraints](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#223-constraints)
       * 3.1 [3.1 Solution 1](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#31-Solution-1)
       * 3.2 [3.2 Solution 2](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#32-Solution-2)
+      * 3.3 [3.2 Solution 2](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#33-Final-Solution)
+        * 3.3.1 [3.3.1 Components]()
+        * 3.3.2 [3.3.2 Features]()
+        * 3.3.3 [ 3.3.3 Environmental, Societal, Safety, and Economic Considerations]()
+        * 3.3.4 [3.3.4	Test Cases and results]()
+        * 3.3.5 [ 3.3.5 Limitations]()
       * 4.1 [4.1 Meeting 1](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#41-Meeting-1)
 
 
@@ -49,6 +55,45 @@ However, this iteration will lack some desired features, such as the ability to 
 
 ## 3.2 Solution 2
 Our second solution increases the scope of consideration further for light behaviour. By including the divergence and dispersion properties of light we will be able to better display the environmental Interactions of light in urban environments. This allows our light reflection and refraction simulator to better emulate light behaviour in urban environments.
+
+## 3.3 Final Solution 
+### 3.3.1 Components
+Unlike our prior solutions our new solution better encompasses light behaviour in a way that is most impactful on urban development and environments. We covered the reflection and refraction behaviour of light, to show the reflectivity of various materials--however instead of predetermined materials we permitted the user to input their own values so that they would have greater freedom in calculating more extremes for worst case scenario planning. Additionally, We included heat absorbtion from sunlight to determine what materials would absorb the most heat versus materials that would reflect light and remain cooler. We deemed this to be important for consideration so that surfaces in public places would remain relatively cool in sunlight and not burn individuals in hot weather. Lastly, we considered light intensity to quantify how bright various light sources are to see how well they light up areas or if they contribute too much to light polluiton and so on.
+![image](https://github.com/user-attachments/assets/3de9f746-2adf-4422-9e60-06271d6ce2d8)
+
+### 3.3.2 Features
+| Features               | Usefulness                                                                                         |
+| ---------------------- | -------------------------------------------------------------------------------------------------- |
+| Reflection Calculation | optics, natural phenomena                                                                          |
+| Albedo                 | climatology and environmental science                                                              |
+| Intensity              | lighting design and efficiency, illumination                                                       |
+| Result interpretation  | interpretations are provided to help the user understand the real world context of the calculation |
+
+### 3.3.3 Environmental, Societal, Safety, and Economic Considerations
+**Energy Efficiency:** 
+* our application can guide the user to optimize lighting methods which can lessen costs and impacts on the environment due to energy conservation
+**Accessibility and Education**
+* Simplifies the conmplex scientific concepts needed to make the calculations so that a broader audience can understand it
+**Economic considerations**
+* Businesses can now better plan their construction projects with foresight into their lighting methods and how they might impact people and the environment. Errors can be caught in planning which will lessen the costs of fixes that may need to be made.
+**Reliability and Safety**
+*our application features accurate calculations with clear instructions and Feedback forthe user. Through the use of intensive testing we have also ensured it's sfety andf reliability
+  
+### 3.3.4	Test Cases and results
+Test Cases and results
+Path Testing: We executed test cases to follow each possible path in the Snell and Intensity Classes, ensuring all paths were covered.
+Data Flow: We focused on testing the flow of data within the Snell Class to ensure variables and functions were utilized correctly and efficiently.
+Boundary Value Testing: We created test cases with boundary values and tested the edge cases for both the Snell and Albedo Classes. The results were analyzed to ensure that boundary conditions were handled correctly.
+Equivalence Class Testing: We divided input data into equivalence class partitions to ensure that test cases for each scenario were covered and verified that the Snell Class handled each partition correctly.
+Decision Table Based Testing: We utilized a decision table to execute test cases of various combinations of inputs and conditions, ensuring that all decision rules were evaluated, and the prototype responded accurately. 
+Randomized Testing: We executed tests with a range of randomly generated inputs for the Albedo Class and then analyzed the results to detect any unexpected behavior.
+
+### 3.3.5 Limitations
+Limitations
+Time: We wanted to implement an option for unit conversion with our simulator to provide a more accurate representation of our data to our users but unfortunately ran out of time.
+Skill: We are not experts in physics so our formulas could potentially have errors. We went with a simplified model that may also lack detail compared to what someone with experience could offer.
+Error Handling: The system might not robustly handle all types of input errors such as null inputs which could lead to potential inaccuracies.
+User-friendly: We tried to implement an intuitive graphical user interface to make our simulator more user-friendly. However, we prioritized refining our current functions through more robust testing instead. 
 
 ## 4.1 Meeting 1
 Time: May 31, 2024. 4:00-4:30pm
