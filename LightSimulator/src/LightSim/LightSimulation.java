@@ -132,62 +132,87 @@ public class LightSimulation {
 		int choice = scanner.nextInt();
 
 		switch (choice) {
-		case 1:
-            System.out.print("Enter the refractive index of the first medium: ");
-            double index1ForTheta1 = scanner.nextDouble();
-            System.out.print("Enter the refractive index of the second medium: ");
-            double index2ForTheta1 = scanner.nextDouble();
-            System.out.print("Enter the angle of refraction (degrees): ");
-            double theta2ForTheta1 = scanner.nextDouble();
-            snell = new Snell(0, theta2ForTheta1, index1ForTheta1, index2ForTheta1);
-            System.out.printf("Theta1: %.2f degrees%n", snell.calculateTheta1());
-            interpretTheta(snell.calculateTheta1(), "Theta1");
-            break;
-        case 2:
-            System.out.print("Enter the refractive index of the first medium: ");
-            double index1ForTheta2 = scanner.nextDouble();
-            System.out.print("Enter the refractive index of the second medium: ");
-            double index2ForTheta2 = scanner.nextDouble();
-            System.out.print("Enter the angle of incidence (degrees): ");
-            double theta1ForTheta2 = scanner.nextDouble();
-            snell = new Snell(theta1ForTheta2, 0, index1ForTheta2, index2ForTheta2);
-            System.out.printf("Theta2: %.2f degrees%n", snell.calculateTheta2());
-            interpretTheta(snell.calculateTheta2(), "Theta2");
-            break;
-        case 3:
-            System.out.print("Enter the refractive index of the second medium: ");
-            double index2ForIndex1 = scanner.nextDouble();
-            System.out.print("Enter the angle of incidence (degrees): ");
-            double theta1ForIndex1 = scanner.nextDouble();
-            System.out.print("Enter the angle of refraction (degrees): ");
-            double theta2ForIndex1 = scanner.nextDouble();
-            snell = new Snell(theta1ForIndex1, theta2ForIndex1, 0, index2ForIndex1);
-            System.out.printf("Index1: %.2f%n", snell.calculateIndex1());
-            interpretIndex(snell.calculateIndex1(), "Index1");
-            break;
-        case 4:
-            System.out.print("Enter the refractive index of the first medium: ");
-            double index1ForIndex2 = scanner.nextDouble();
-            System.out.print("Enter the angle of incidence (degrees): ");
-            double theta1ForIndex2 = scanner.nextDouble();
-            System.out.print("Enter the angle of refraction (degrees): ");
-            double theta2ForIndex2 = scanner.nextDouble();
-            snell = new Snell(theta1ForIndex2, theta2ForIndex2, index1ForIndex2, 0);
-            System.out.printf("Index2: %.2f%n", snell.calculateIndex2());
-            interpretIndex(snell.calculateIndex2(), "Index2");
-            break;
-        case 5:
-            System.out.print("Enter the refractive index of the first medium: ");
-            double index1ForReflection = scanner.nextDouble();
-            System.out.print("Enter the refractive index of the second medium: ");
-            double index2ForReflection = scanner.nextDouble();
-            System.out.print("Enter the angle of incidence (degrees): ");
-            double theta1ForReflection = scanner.nextDouble();
-            System.out.print("Enter the angle of refraction (degrees): ");
-            double theta2ForReflection = scanner.nextDouble();
-            snell = new Snell(theta1ForReflection, theta2ForReflection, index1ForReflection, index2ForReflection);
-            printReflectionRefraction(snell);
-            break;
+		  case 1:
+              System.out.print("Enter the refractive index of the first medium: ");
+              double index1ForTheta1 = scanner.nextDouble();
+              System.out.print("Enter the refractive index of the second medium: ");
+              double index2ForTheta1 = scanner.nextDouble();
+              System.out.print("Enter the angle of refraction (degrees): ");
+              double theta2ForTheta1 = scanner.nextDouble();
+              snell = new Snell(0, theta2ForTheta1, index1ForTheta1, index2ForTheta1);
+              if (snell.calculateTheta1() != -1) {
+                  System.out.printf("Theta1: %.2f degrees%n", snell.calculateTheta1());
+                  interpretTheta(snell.calculateTheta1(), "Theta1");
+              } else {
+                  System.out.printf("Invalid Input");
+              }
+              break;
+
+          case 2:
+              System.out.print("Enter the refractive index of the first medium: ");
+              double index1ForTheta2 = scanner.nextDouble();
+              System.out.print("Enter the refractive index of the second medium: ");
+              double index2ForTheta2 = scanner.nextDouble();
+              System.out.print("Enter the angle of incidence (degrees): ");
+              double theta1ForTheta2 = scanner.nextDouble();
+              snell = new Snell(theta1ForTheta2, 0, index1ForTheta2, index2ForTheta2);
+              if (snell.calculateTheta2() != -1) {
+                  System.out.printf("Theta2: %.2f degrees%n", snell.calculateTheta2());
+                  interpretTheta(snell.calculateTheta2(), "Theta2");
+              } else {
+                  System.out.printf("Invalid Input");
+              }
+              break;
+
+          case 3:
+              System.out.print("Enter the refractive index of the second medium: ");
+              double index2ForIndex1 = scanner.nextDouble();
+              System.out.print("Enter the angle of incidence (degrees): ");
+              double theta1ForIndex1 = scanner.nextDouble();
+              System.out.print("Enter the angle of refraction (degrees): ");
+              double theta2ForIndex1 = scanner.nextDouble();
+              snell = new Snell(theta1ForIndex1, theta2ForIndex1, 0, index2ForIndex1);
+              if (snell.calculateIndex1() != -1) {
+                  System.out.printf("Index1: %.2f%n", snell.calculateIndex1());
+                  interpretIndex(snell.calculateIndex1(), "Index1");
+              } else {
+                  System.out.printf("Invalid Input");
+              }
+              break;
+
+          case 4:
+              System.out.print("Enter the refractive index of the first medium: ");
+              double index1ForIndex2 = scanner.nextDouble();
+              System.out.print("Enter the angle of incidence (degrees): ");
+              double theta1ForIndex2 = scanner.nextDouble();
+              System.out.print("Enter the angle of refraction (degrees): ");
+              double theta2ForIndex2 = scanner.nextDouble();
+              snell = new Snell(theta1ForIndex2, theta2ForIndex2, index1ForIndex2, 0);
+              if (snell.calculateIndex2() != -1) {
+                  System.out.printf("Index2: %.2f%n", snell.calculateIndex2());
+                  interpretIndex(snell.calculateIndex2(), "Index2");
+              } else {
+                  System.out.printf("Invalid Input");
+              }
+              break;
+
+          case 5:
+              System.out.print("Enter the refractive index of the first medium: ");
+              double index1ForReflection = scanner.nextDouble();
+              System.out.print("Enter the refractive index of the second medium: ");
+              double index2ForReflection = scanner.nextDouble();
+              System.out.print("Enter the angle of incidence (degrees): ");
+              double theta1ForReflection = scanner.nextDouble();
+              System.out.print("Enter the angle of refraction (degrees): ");
+              double theta2ForReflection = scanner.nextDouble();
+              snell = new Snell(theta1ForReflection, theta2ForReflection, index1ForReflection, index2ForReflection);
+              if (snell.calculateTheta1() != -1 && snell.calculateTheta2() != -1) {
+                  printReflectionRefraction(snell);
+              } else {
+                  System.out.printf("Invalid Input");
+              }
+              break;
+
 		default:
 			System.out.println("Invalid choice.");
 		}
