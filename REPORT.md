@@ -103,3 +103,7 @@ Agenda: Distribution of Project Tasks
 | Conner  |   Section 2.2.3 Constraints writeup | Completed | Solution 1 brainstorm
 | Shema | Section 2.2.1 Functions and 2.2.2 Objectives editing   | Completed | Solution 2 brainstorm
 | Kevin    | Section 2.2.2 Objectives writeup   | Completed | Solution documentation
+
+## 4.2 Meeting 2
+Time: 
+Agenda
