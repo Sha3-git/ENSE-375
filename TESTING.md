@@ -57,7 +57,8 @@ The Image above features what path testing would have looked like for the entire
 Within our code we, simply focused on testing the paths for snell's law calculations.
 
 ## Desicion Tables
-
+![image](https://github.com/user-attachments/assets/fc1df9b9-cce3-4ae4-9a85-8ff5aee86578)
+For our decision table testing, we used our snell class for example as it's one of the more important functions in our program. Condition Stub lists all the conditions in the snell class and Condition Entries show the possible values for each condition, in our case, either true or false. Finally, Action Stub will list all the actions that can occur in our program, either returning the calculated value or providing an error based on what the user enters.
 
 ## Use case Testing
 
