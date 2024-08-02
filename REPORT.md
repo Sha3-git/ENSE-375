@@ -12,7 +12,7 @@ The Reflection/Refraction simulator will provide the user with an accurate way t
         * 2.2.3 [2.2.3 Constraints](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#223-constraints)
       * 3.1 [3.1 Solution 1](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#31-Solution-1)
       * 3.2 [3.2 Solution 2](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#32-Solution-2)
-      * 3.3 [3.2 Solution 2](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#33-Final-Solution)
+      * 3.3 [3.2 Solution 3](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#33-Final-Solution)
         * 3.3.1 [3.3.1 Components](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#331-components)
         * 3.3.2 [3.3.2 Features](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#332-features)
         * 3.3.3 [ 3.3.3 Environmental, Societal, Safety, and Economic Considerations](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#333-environmental-societal-safety-and-economic-considerations)
