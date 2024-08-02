@@ -61,8 +61,10 @@ Within our code we, simply focused on testing the paths for snell's law calculat
 For our decision table testing, we used our snell class for example as it's one of the more important functions in our program. Condition Stub lists all the conditions in the snell class and Condition Entries show the possible values for each condition, in our case, either true or false. Finally, Action Stub will list all the actions that can occur in our program, either returning the calculated value or providing an error based on what the user enters.
 
 ## Use case Testing
+![image](https://github.com/user-attachments/assets/88d2cddb-242f-4c92-9e95-26dc1d08d4ca)
+For our use case testing, we provided a description of how users(actors) can interact with our system to achieve a specific goal. It outlines the steps or actions taken by the user and the system's responses, covering both normal and exceptional scenarios. We have selected calculate theta 1 as our main flow which expects the user and program to take the standard path. We also included in the extension an alternate flow, which shows how the system would respond if the user were to provide incorrect values or invalid responses.
 
 ## State Transition Testing
-
-
+![image](https://github.com/user-attachments/assets/0958c3ce-877b-461f-bace-94d6ac101031)
+Lastly, we included a state transition diagram, the state transition diagram is a graphical representation of our system that shows different states it can be in, the transitions between these states, and the events that trigger these transitions. It provides the testers a clear visual model of the dynamic behavior of our system.
 
