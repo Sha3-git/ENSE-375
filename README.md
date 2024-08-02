@@ -5,6 +5,9 @@ Welcome to LightSimulation v3.0! This application provides a suite of tools to c
 [Features](https://github.com/Sha3-git/ENSE-375/tree/main?tab=readme-ov-file#features)
 [Installation](https://github.com/Sha3-git/ENSE-375/tree/main?tab=readme-ov-file#installation)
 [Usage](https://github.com/Sha3-git/ENSE-375/tree/main?tab=readme-ov-file#usage)
+[Presentation](https://youtu.be/DSI6SkQEmYM)
+[Testing](https://github.com/Sha3-git/ENSE-375/blob/main/TESTING.md)
+[Report](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md)
 [License](https://github.com/Sha3-git/ENSE-375/tree/main?tab=CC0-1.0-1-ov-file)
 
 ### Features
