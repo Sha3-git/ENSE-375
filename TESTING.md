@@ -47,5 +47,21 @@ For testCalculateIndex1, we tested a range of angles and refractive indices to e
 | 26     | [91, ∞)    | [T2]        | [4.1, ∞)  | Snell(91, 45, 0, 4.1) | -1              |
 | 27     | [91, ∞)    | [91, ∞)     | [4.1, ∞)  | Snell(91, 91, 0, 4.1) | -1              |
 
+## Path and Data flow testing 
+![image](https://github.com/user-attachments/assets/fd9bf6e5-5540-4c2f-95d1-412d521e346b)
+For our data flow coverage we used def-use coverage which covered the lightsimulator main function of our program that made calls to the calculation classes for snell's law, albedo, and light dispersion.
+With regards to our path testing we utilized node coverager to ensure all paths were covered at least once. We avoided outer coverage criterias because of the complexity it would have introduced with the our program's loop conditions and we felt that our scope was small enough that node coverage would have been enough to achieve a thorough enough testing of our program
+
+![image](https://github.com/user-attachments/assets/f270d676-a159-4f58-8824-d7fe60e5e5b8)
+The Image above features what path testing would have looked like for the entirety of our program.
+Within our code we, simply focused on testing the paths for snell's law calculations.
+
+## Desicion Tables
+
+
+## Use case Testing
+
+## State Transition Testing
+
 
 
