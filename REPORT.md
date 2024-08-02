@@ -12,12 +12,12 @@ The Reflection/Refraction simulator will provide the user with an accurate way t
         * 2.2.3 [2.2.3 Constraints](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#223-constraints)
       * 3.1 [3.1 Solution 1](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#31-Solution-1)
       * 3.2 [3.2 Solution 2](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#32-Solution-2)
-      * 3.3 [3.2 Solution 2](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#33-Final-Solution)
-        * 3.3.1 [3.3.1 Components]()
-        * 3.3.2 [3.3.2 Features]()
-        * 3.3.3 [ 3.3.3 Environmental, Societal, Safety, and Economic Considerations]()
-        * 3.3.4 [3.3.4	Test Cases and results]()
-        * 3.3.5 [ 3.3.5 Limitations]()
+      * 3.3 [3.2 Solution 3](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#33-Final-Solution)
+        * 3.3.1 [3.3.1 Components](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#331-components)
+        * 3.3.2 [3.3.2 Features](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#332-features)
+        * 3.3.3 [ 3.3.3 Environmental, Societal, Safety, and Economic Considerations](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#333-environmental-societal-safety-and-economic-considerations)
+        * 3.3.4 [3.3.4	Test Cases and results](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#334test-cases-and-results)
+        * 3.3.5 [ 3.3.5 Limitations](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#335-limitations)
       * 4.1 [4.1 Meeting 1](https://github.com/Sha3-git/ENSE-375/blob/main/REPORT.md#41-Meeting-1)
 
 
@@ -96,14 +96,55 @@ Error Handling: The system might not robustly handle all types of input errors s
 User-friendly: We tried to implement an intuitive graphical user interface to make our simulator more user-friendly. However, we prioritized refining our current functions through more robust testing instead. 
 
 ## 4.1 Meeting 1
-Time: May 31, 2024. 4:00-4:30pm
-Agenda: Distribution of Project Tasks
-|Team Member   | Previous Task | Completion State | Next Task |
-| -------- | ------- | -------- | ------- |
-| Conner  |   Section 2.2.3 Constraints writeup | Completed | Solution 1 brainstorm
-| Shema | Section 2.2.1 Functions and 2.2.2 Objectives editing   | Completed | Solution 2 brainstorm
-| Kevin    | Section 2.2.2 Objectives writeup   | Completed | Solution documentation
+**Time:** May 31, 2024. 4:00-4:30pm  
+**Agenda:** Distribution of Project Tasks  
+| Team Member | Previous Task | Completion State | Next Task |
+|-------------|---------------|------------------|-----------|
+| Conner      | Section 2.2.3 Constraints writeup | Completed | Solution 1 brainstorm |
+| Shema       | Section 2.2.1 Functions and 2.2.2 Objectives editing | Completed | Solution 2 brainstorm |
+| Kevin       | Section 2.2.2 Objectives writeup | Completed | Solution documentation |
 
 ## 4.2 Meeting 2
-Time: 
-Agenda
+**Time:** June 6, 2024. 4:00-4:30pm  
+**Agenda:** Review of Individual Progress/Distribution of New Project Tasks  
+| Team Member | Previous Task | Completion State | Next Task |
+|-------------|---------------|------------------|-----------|
+| Conner      | Solution 1 brainstorm | Completed | Prototype Solution 1 |
+| Shema       | Solution 2 brainstorm | Completed | Prototype Solution 2 |
+| Kevin       | Solution documentation | Completed | Prototype Documentation |
+
+## 4.3 Meeting 3
+**Time:** June 21, 2024. 5:00-5:30pm  
+**Agenda:** Review of Individual Progress/Distribution of New Project Tasks  
+| Team Member | Previous Task | Completion State | Next Task |
+|-------------|---------------|------------------|-----------|
+| Conner      | Prototype Solution 1 | Completed | Develop testing for solution 1 |
+| Shema       | Prototype Solution 2 | Completed | Develop testing for solution 2 |
+| Kevin       | Prototype Documentation | Completed | Develop testing for solution 2 |
+
+## 4.4 Meeting 4
+**Time:** July 2, 2024. 4:00-4:30pm  
+**Agenda:** Review of Individual Progress/Distribution of New Project Tasks  
+| Team Member | Previous Task | Completion State | Next Task |
+|-------------|---------------|------------------|-----------|
+| Conner      | Develop testing for solution 1 | Completed | Final solution |
+| Shema       | Develop testing for solution 2 | Completed | Final solution |
+| Kevin       | Develop testing for solution 2 | Completed | Final solution |
+
+## 4.5 Meeting 5
+**Time:** July 21, 2024. 4:00-4:30pm  
+**Agenda:** Review of Individual Progress/Distribution of New Project Tasks  
+| Team Member | Previous Task | Completion State | Next Task |
+|-------------|---------------|------------------|-----------|
+| Conner      | Final solution | Completed | Project documentation/presentation |
+| Shema       | Final solution | Completed | Project documentation/presentation |
+| Kevin       | Final solution | Completed | Project documentation/presentation |
+
+## 4.6 Meeting 6
+**Time:** July 30, 2024. 5:00-5:30pm  
+**Agenda:** Review of Individual Progress/Distribution of New Project Tasks  
+| Team Member | Previous Task | Completion State | Next Task |
+|-------------|---------------|------------------|-----------|
+| Conner      | Project documentation/presentation | Completed | N/A |
+| Shema       | Project documentation/presentation | Completed | N/A |
+| Kevin       | Project documentation/presentation | Completed | N/A |

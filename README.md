@@ -2,12 +2,10 @@
 Welcome to LightSimulation v3.0! This application provides a suite of tools to calculate and interpret various light behaviors, including reflection, refraction, albedo, and intensity. It's designed to be user-friendly and educational, making complex scientific concepts accessible to a broad audience.
 
 ### Table of Contents
-[Features]()
-[Installation]()
-[Usage]()
-[Examples]()
-[Contributing]()
-[License]()
+[Features](https://github.com/Sha3-git/ENSE-375/tree/main?tab=readme-ov-file#features)
+[Installation](https://github.com/Sha3-git/ENSE-375/tree/main?tab=readme-ov-file#installation)
+[Usage](https://github.com/Sha3-git/ENSE-375/tree/main?tab=readme-ov-file#usage)
+[License](https://github.com/Sha3-git/ENSE-375/tree/main?tab=CC0-1.0-1-ov-file)
 
 ### Features
 #### Reflection Calculation (Snell's Law)
